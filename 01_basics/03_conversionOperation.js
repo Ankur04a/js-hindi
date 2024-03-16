@@ -31,3 +31,9 @@ let someNumber=33
 let stringNUmber=String(someNumber)
 console.log(stringNUmber)
 console.log(typeof stringNUmber)
+
+
+
+
+
+
