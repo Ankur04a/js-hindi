@@ -28,3 +28,27 @@ console.log("2" === 2);  //false aayega q ki === strictly check krta hai like da
 //datatypes of undefined => undefined
 //non primitive datatypes example => Array,Object,Function
 //non-premitive datatypes ka typeof hmesa object aayega
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//memory 2 types ka hota hai
+//1.stack(primitive datatypes)   2.heap(primitive datatypes)
+
+//stack
+let myName="ankur"
+let anotherName=myName
+anotherName="Kamal"
+console.log(anotherName);
+console.log(myName);
+
+//heap
+let userOne={
+    email:"ankurtang111@gmail.com" ,
+    upi:"abc@ybl"
+}
+let userTwo=userOne;
+userTwo.email="baburao@gmail.com";
+console.log(userOne.email);
+console.log(userTwo.email);
